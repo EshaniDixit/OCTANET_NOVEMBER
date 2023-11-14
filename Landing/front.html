@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Coffee Cafe</title>
+  </head>
+  <body>
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            Coffee
+            <span>House</span>
+          </b>
+        </a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">About Us</a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Services</a>
+            </li>
+            <li class="nav_item">
+              <a href="#foods" class="nav_link">Menu</a>
+            </li>
+            <li class="hidden_item">
+              <a href="#app" class="nav_link">Location</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contact Us</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <button class="menu" aria-label="Abrir Menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"> </button>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">Welcome to Coffee House</h1>
+            <h2 class="home_subtitle">Experience the finest coffee and more</h2>
+            <a href="#foods" class="button">View Menu</a>
+          </div>
+          <img src="images/home.png" alt="Coffee" class="home_img"/>
+        </div>
+      </section>
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">About Us</span>
+            <h2 class="section-title about_initial">
+              The biggest Cafe you have ever visited is open now with all varities of foods and beverages.
+            </h2>
+            <p class="about_description">
+              We are dedicated to providing a cozy and welcoming environment for coffee enthusiasts.
+              Our passion for coffee extends to delivering the finest quality and service.
+            </p>
+            </p>
+            <a href="#app" class="button">Visit now!!! And Give us a try</a>
+          </div>
+          <img src="images/coffee.png" alt="Coffee Varities" class="about_img"/>
+        </div>
+      </section>
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">What All Do We Offer</span>
+        <h2 class="section-title">Our Specialities</h2>
+        <div class="services_container bd-grid">
+          <div class="services_content">
+            <h3 class="services_title">Delicious Coffee Blends</h3>
+            <p class="services_description">
+              Explore a variety of coffee blends crafted with precision and passion at
+              Coffee House
+            </p>
+          </div>
+          <div class="services_content">
+            <h3 class="services_title">Irresistible Snacks!</h3>
+            <p class="services_description">
+              Elevate your coffee experience with our delectable snacks, perfect for any craving.
+            </p>
+          </div>
+          <div class="services_content">
+           <h3 class="services_title">Cozy Ambiance</h3>
+            <p class="services_description">
+              Immerse yourself in a warm and inviting atmosphere while enjoying your favorite coffee and snacks. </p>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="foods section bd-container" id="foods">
+        <span class="section-subtitle">Our Menu</span>
+        <h2 class="section-title">Beverages and Snacks</h2>
+        <div class="foods_container bd-grid">
+          <div class="foods_content">
+            <img src="images/es.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Espresso</h3>
+            <span class="foods_detail">Strong and rich coffee served in small shots.</span>
+            <span class="foods_price">Rs 100.00</span>
+          </div>
+          <div class="foods_content">
+            <img src="images/cf.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Caramel Frappe</h3>
+            <span class="foods_detail">A heavenly blend of smooth coffee and luscious caramel, creating the perfect icy delight</span>
+            <span class="foods_price">Rs 160.00</span>
+          </div>
+          <div class="foods_content">
+            <img src="images/ml.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Matcha Tea Latte</h3>
+            <span class="foods_detail">A perfect blend of vibrant matcha flavors and velvety steamed milk."</span>
+            <span class="foods_price">Rs 155.00</span>
+            </div>
+          <div class="foods_content">
+            <img src="images/cr.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Croissant</h3>
+            <span class="foods_detail">Our buttery croissants, a delightful harmony of crisp layers, are a heavenly treat for your taste buds.</span>
+            <span class="foods_price">Rs 85.00</span>
+        </div>
+        <div class="foods_content">
+            <img src="images/dou.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Doughnut</h3>
+            <span class="foods_detail">Indulge in a delightful symphony of flavors with our scrumptious doughnuts – a perfect harmony of soft, pillowy goodness and irresistible sweetness..</span>
+            <span class="foods_price">Rs 90.00</span>
+        </div>
+        <div class="foods_content">
+            <img src="images/cc.png" alt="" class="foods_img" />
+            <h3 class="foods_name">Choco-chip Cupcake</h3>
+            <span class="foods_detail"> The delightful sweetness of our Choco Chip Cupcake, a perfect harmony of rich chocolate flavor and luscious, melt-in-your-mouth goodness.
+        </div>
+        </div>
+      </section>
+      <section class="app section bd-container" id="app">
+        <div class="app_container bd-grid">
+          <div class="app_data">
+            <span class="section-subtitle app_initial">Visit now!</span>
+            <h2 class="section-title app_initial">Coffee House</h2>
+            <p class="app_description">
+              Where you feel at home at the comfort and ambience without any disturbance
+            </p>
+          </div>
+           <img src="images/b.png" alt="" class="app_img" />
+        </div>
+      </section>
+      <section class="contact section bd-container" id="contact">
+        <div class="contact_container bd-grid">
+          <div class="contact_data">
+            <span class="section-subtitle contact_initial">Let's talk?</span>
+            <h2 class="section-title contact_initial">Contact Us</h2>
+            <p class="contact_description">
+              Have a question or want to reserve a table? Contact us today!
+            </p>
+          </div>
+          <div class="contact_button">
+            <a href="#" class="button">Get in Touch</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            Coffee
+            <span>House</span>
+          </b>
+          <span class="footer_description">The best cafe you have ever visited. </span>
+        <p class="footer_copy">
+        &#169; Made by
+          Eshani Dixit
+        </a>
+      </p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
